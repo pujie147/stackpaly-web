@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+
+
+beetlsql:
+  enabled: false
+beetl:
+  enabled: true
+  suffix: html #    默认为btl，表示只处理视图后缀为btl的模板，比如controller里代码是“return /common/index.btl”,则能被Beetl处理，你写成"return /common/index",或者"/common/index.html",都会出现404错误。
+  templatesPath: eova
